@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenWeatherApp</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div id="" class="col-10 mx-auto weather">
+					<div class="weather-head">
+						<h1 id="location" class="text-center display-4"></h1>
+						<div class="row">													
+							<div id="temperature" class="col-6 text-center">
+								<i id="icon-thermometer" class="wi wi-thermometer"></i>					
+							</div>	
+							<div id="description" class="description col-6 text-center">
+								<i id="icon-desc" class=""></i>
+								<p class="desc"></p>			
+							</div>
+						</div>
+						<div class="weather-body">					
+							<div class="row">
+									<div class="wind col-3 text-center">
+								<i class="wi wi-strong-wind"></i><span> Wind Speed:</span>
+										</div>
+								<div class="humidity col-3 text-center">
+									<i class="wi wi-raindrop"></i><span> Humidity:</span>
+								</div>
+								<div class="sunrise col-3 text-center">
+									<i class="wi wi-sunrise"></i><span> Sunrise:</span>
+								</div>			
+								<div class="sunset col-3 text-center">
+									<i class="wi wi-sunset"></i><span> Sunset:</span>
+								</div>				
+							</div>
+							<div class="row">								
+								<div id="wind" class="wind-data col-3 text-center">
+								</div>
+								<div id="humidity" class="humidity-data col-3 text-center">
+								</div>
+								<div id="sunrise" class="sunrise-data col-3 text-center">
+								</div>
+								<div id="sunset" class="sunset-data col-3 text-center">
+								</div>
+							</div>
+						</div>						
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/weather.js"></script>
+
